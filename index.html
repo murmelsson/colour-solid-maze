@@ -1,1 +1,23 @@
-Game will appear here
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Colour-Solid-Maze :: a Scala.js text adventure</title>
+</head>
+<body>
+<script type="text/javascript" src="./colour-solid-maze-opt.js"></script>
+
+<h3 id="game-title" style="font-family: Arial"></h3>
+<p style="font-family: Arial; font-size: 12px;">murmelssonic</p>
+<div id="main-container" style="margin: 5px; font-family: monospace; white-space: pre-wrap; color: #00ff00; background-color: #000000; padding: 10px; border-radius: 5px;" class="mainBox">
+  <div id="area" style="margin: 5px; font-family: monospace; white-space: pre-wrap; color: #00ff00; background-color: #000000; padding: 10px; border-radius: 5px;" class="descriptionBox"></div>
+  <span style="float: left; color: pink; font-weight: bold">  Command-Shell:~$ <input id="input" autofocus="autofocus"></span><span><button id="button">Execute</button></span>
+  <div id="output" style="margin: 5px; font-family: monospace; white-space: pre-wrap; color: #ffffff; background-color: #440022; padding: 10px; border-radius: 5px;">[Turns played: 0/80]</div>
+</div>
+<br>
+<a href="./ColourSolidMaze-TopologicalMap.pdf" target="_blank" style="font-family: Arial">Topological Maze Map (pdf) for the lost and/or lazy players</a>
+<script type="text/javascript">
+        adventure.ui.AdventureCSMJSUI().main(document.getElementById('main-container'));
+    </script>
+</body>
+</html>

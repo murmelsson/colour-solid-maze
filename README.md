@@ -14,3 +14,5 @@ This repository only contains the components needed for converting the original 
 - build.properties         :: a file in the ./project directory of the game-project, to tell SBT which version of itself is wanted.
 - AdventureCSMJSUI.scala   :: the connecting object between index.html and the game logic, it therefore handles both back-facing tasks such as calling appropriate methods and handling the responses, and front-facing tasks such as manipulating the DOM nodes according to user input and game responses. (As it happens, the game-project directory path is ./src/main/scala/adventure/ui - which is a concatenated path using a standard SBT-directory structure and the package definition in the file).
 - README.md                :: obviously you can see this project descriptor, since you are reading it right now.
+
+You can learn how to use Scala.js by following the tutorials on the website: http://www.scala-js.org/

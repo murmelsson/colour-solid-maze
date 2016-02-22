@@ -6,3 +6,5 @@ A text-adventure, where the player tries to escape from a maze. The colour-theme
 The baseline-code from which this game was developed was provided by Aalto University (Helsinki, Finland) to students on the Scala-programming course: Ohjelmointi 1, in the autumn of 2015.
 
 To view the files used for the Github Pages branch (i.e. the branch which is published as a working app, and which additionally includes a few files of minor interest such as build.sbt and AdventureCSMJSUI.scala), you should select the gh-pages branch of this project, (located at: https://github.com/murmelsson/colour-solid-maze/tree/gh-pages ).
+
+The game itself can be played at: http://murmelsson.github.io/colour-solid-maze/
